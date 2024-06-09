@@ -55,9 +55,31 @@ a {
 
 .bg-3 {
     background-color: #000000; /* Black */
-    color: #ffffff;
+    color: #ff0000;
 }
+a:link {
+    color: green;
+    background-color: transparent;
+    text-decoration: none;
+  }
 
+  a:visited {
+    color: pink;
+    background-color: transparent;
+    text-decoration: none;
+  }
+
+  a:hover {
+    color: red;
+    background-color: transparent;
+    text-decoration: underline;
+  }
+
+  a:active {
+    color: yellow;
+    background-color: transparent;
+    text-decoration: underline;
+  }
 .bg-4 {
     background-color: #343a40; /* Dark Gray */
     color: #fff;
